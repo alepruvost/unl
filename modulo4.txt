@@ -1,0 +1,9 @@
+Los de controles de versiones son sistemas que registran cambios en uno o más archivos a través del tiempo dándonos la posibilidad de volver a una versión específica en un futuro. Si bien ofrecen grandes beneficios de seguridad, son muy populares principalmente por sus utilidad en el flujo de trabajo de un grupo de desarrollo colaborativo.
+
+Vamos a obviar los básicos VCS Locales para dividirlos en sus 2 grupos principales: VCS Centralizados (CVCS) y VCS Distribuidos (DVCS).
+
+Los CVCS permitieron la colaboración entre desarrolladores de distintos sistemas. Los archivos versionados están alojados en un único servidor donde acceden los clientes para su descarga. Permiten una visión global del avance de proyecto y facilitan la administración de la base de datos. Por contraparte, la centralización de los datos puede presentar deficiencias de resiliencia y tolerancia a errores.
+
+Los DVCS subsanaron los problemas principales de los CVCS replicando el repositorio completo del servidor en cada cliente, brindando la posibilidad de una restauración casi inmediata desde estos últimos. Además, pueden manejar numerosos repositorios remotos y permitiendo colaborar simultáneamente de diferentes maneras en otras áreas dentro del mismo proyecto.
+
+Lamentablemente no soy usuario de de un VCS como para compartir mi experiencia con Uds. Para la ocasión creé un repositorio en GitHub y les paso el link a un archivo con el mismo contenido que están leyendo: https://github.com/alepruvost/unl/blob/master/modulo4.txt
